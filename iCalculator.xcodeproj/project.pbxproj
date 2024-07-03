@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0BB22B52C315491004630A8 /* iCalculator App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCalculator App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BB22B52C315491004630A8 /* iCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BB22B82C315491004630A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0BB22BA2C315491004630A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0BB22BC2C315491004630A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		D0BB22B62C315491004630A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0BB22B52C315491004630A8 /* iCalculator App.app */,
+				D0BB22B52C315491004630A8 /* iCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0BB22B42C315491004630A8 /* iCalculator App */ = {
+		D0BB22B42C315491004630A8 /* iCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0BB22C92C315492004630A8 /* Build configuration list for PBXNativeTarget "iCalculator App" */;
+			buildConfigurationList = D0BB22C92C315492004630A8 /* Build configuration list for PBXNativeTarget "iCalculator" */;
 			buildPhases = (
 				D0BB22B12C315491004630A8 /* Sources */,
 				D0BB22B22C315491004630A8 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "iCalculator App";
+			name = iCalculator;
 			productName = "iCalculator App";
-			productReference = D0BB22B52C315491004630A8 /* iCalculator App.app */;
+			productReference = D0BB22B52C315491004630A8 /* iCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D0BB22B02C315491004630A8 /* Build configuration list for PBXProject "iCalculator App" */;
+			buildConfigurationList = D0BB22B02C315491004630A8 /* Build configuration list for PBXProject "iCalculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0BB22B42C315491004630A8 /* iCalculator App */,
+				D0BB22B42C315491004630A8 /* iCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -298,8 +298,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,8 +326,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -346,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0BB22B02C315491004630A8 /* Build configuration list for PBXProject "iCalculator App" */ = {
+		D0BB22B02C315491004630A8 /* Build configuration list for PBXProject "iCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0BB22C72C315492004630A8 /* Debug */,
@@ -355,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0BB22C92C315492004630A8 /* Build configuration list for PBXNativeTarget "iCalculator App" */ = {
+		D0BB22C92C315492004630A8 /* Build configuration list for PBXNativeTarget "iCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0BB22CA2C315492004630A8 /* Debug */,
