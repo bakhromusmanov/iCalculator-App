@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,6 @@
 				};
 			};
 			buildConfigurationList = D0BB22B02C315491004630A8 /* Build configuration list for PBXProject "iCalculator" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +110,7 @@
 				Base,
 			);
 			mainGroup = D0BB22AC2C315491004630A8;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = D0BB22B62C315491004630A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
